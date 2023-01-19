@@ -1,0 +1,268 @@
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Fattani\%20Computers\/Documents\/interior-consultant-page\/sass\/base\/_reset\.scss}line{font-family:\000031}}
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Fattani\%20Computers\/Documents\/interior-consultant-page\/sass\/base\/_reset\.scss}line{font-family:\000039}}
+body {
+  width: 100%;
+  padding: 0 6rem;
+  background-color: #181719;
+  position: relative; }
+  @media (max-width: 998px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Fattani\%20Computers\/Documents\/interior-consultant-page\/sass\/base\/_reset\.scss}line{font-family:\000039}}
+    body {
+      padding: 0 1rem; } }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Fattani\%20Computers\/Documents\/interior-consultant-page\/sass\/layout\/_navigation\.scss}line{font-family:\000031}}
+header {
+  width: 100%;
+  height: 80px;
+  padding-top: 2rem; }
+  @media (max-width: 998px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Fattani\%20Computers\/Documents\/interior-consultant-page\/sass\/layout\/_navigation\.scss}line{font-family:\000031}}
+    header {
+      padding: 0; } }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Fattani\%20Computers\/Documents\/interior-consultant-page\/sass\/layout\/_navigation\.scss}line{font-family:\000038}}
+  header .nav {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Fattani\%20Computers\/Documents\/interior-consultant-page\/sass\/layout\/_navigation\.scss}line{font-family:\0000316}}
+    header .nav .nav__brand {
+      color: #ffffff;
+      font-family: "Crimson Pro", serif;
+      font-size: 1.2rem;
+      border: 2px solid #ffffff;
+      text-decoration: none;
+      padding: 0.5rem; }
+      @media (max-width: 998px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Fattani\%20Computers\/Documents\/interior-consultant-page\/sass\/layout\/_navigation\.scss}line{font-family:\0000316}}
+        header .nav .nav__brand {
+          font-size: 0.8rem; } }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Fattani\%20Computers\/Documents\/interior-consultant-page\/sass\/layout\/_navigation\.scss}line{font-family:\0000327}}
+    header .nav .nav__links {
+      display: flex;
+      gap: 5rem;
+      height: 100%;
+      align-items: center; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Fattani\%20Computers\/Documents\/interior-consultant-page\/sass\/layout\/_navigation\.scss}line{font-family:\0000332}}
+      header .nav .nav__links .nav__item {
+        list-style-type: none; }
+        @media (max-width: 998px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Fattani\%20Computers\/Documents\/interior-consultant-page\/sass\/layout\/_navigation\.scss}line{font-family:\0000332}}
+          header .nav .nav__links .nav__item {
+            display: none; } }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Fattani\%20Computers\/Documents\/interior-consultant-page\/sass\/layout\/_navigation\.scss}line{font-family:\0000337}}
+        header .nav .nav__links .nav__item a {
+          text-decoration: none;
+          color: #ffffff;
+          font-family: "Montserrat", sans-serif; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Fattani\%20Computers\/Documents\/interior-consultant-page\/sass\/layout\/_navigation\.scss}line{font-family:\0000343}}
+      header .nav .nav__links .nav__menu {
+        display: none;
+        background-color: transparent;
+        filter: grayscale(1) invert(1);
+        border: none; }
+        @media (max-width: 998px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Fattani\%20Computers\/Documents\/interior-consultant-page\/sass\/layout\/_navigation\.scss}line{font-family:\0000343}}
+          header .nav .nav__links .nav__menu {
+            display: block; } }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Fattani\%20Computers\/Documents\/interior-consultant-page\/sass\/layout\/_navigation\.scss}line{font-family:\0000351}}
+        header .nav .nav__links .nav__menu img {
+          width: 40px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Fattani\%20Computers\/Documents\/interior-consultant-page\/sass\/layout\/_navigation\.scss}line{font-family:\0000358}}
+.active {
+  border-bottom: 2px solid #ffffff;
+  padding-bottom: 0.3rem; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Fattani\%20Computers\/Documents\/interior-consultant-page\/sass\/layout\/_navigation\.scss}line{font-family:\0000364}}
+.navbar {
+  width: 100%;
+  height: 0;
+  overflow: hidden;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: #181719;
+  z-index: 1;
+  transition: all 0.3s linear;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Fattani\%20Computers\/Documents\/interior-consultant-page\/sass\/layout\/_navigation\.scss}line{font-family:\0000379}}
+  .navbar a {
+    text-decoration: none;
+    color: #ffffff;
+    font-family: "Montserrat", sans-serif;
+    font-size: 1.2rem; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Fattani\%20Computers\/Documents\/interior-consultant-page\/sass\/layout\/_navigation\.scss}line{font-family:\0000386}}
+  .navbar .close {
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+    background-color: transparent;
+    filter: grayscale(1) invert(1);
+    border: none; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Fattani\%20Computers\/Documents\/interior-consultant-page\/sass\/layout\/_navigation\.scss}line{font-family:\0000393}}
+    .navbar .close img {
+      width: 40px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Fattani\%20Computers\/Documents\/interior-consultant-page\/sass\/layout\/_navigation\.scss}line{font-family:\0000398}}
+.toggle-menu {
+  height: 100%; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Fattani\%20Computers\/Documents\/interior-consultant-page\/sass\/_hero\.scss}line{font-family:\000031}}
+.hero__section {
+  width: 100%;
+  height: calc(100vh - 80px);
+  color: #ffffff;
+  display: flex;
+  align-items: center;
+  justify-content: center; }
+  @media (max-width: 998px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Fattani\%20Computers\/Documents\/interior-consultant-page\/sass\/_hero\.scss}line{font-family:\000031}}
+    .hero__section {
+      flex-direction: column;
+      min-height: 100vh;
+      padding-bottom: 10rem; } }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Fattani\%20Computers\/Documents\/interior-consultant-page\/sass\/_hero\.scss}line{font-family:\0000314}}
+  .hero__section .hero__text {
+    width: 40%; }
+    @media (max-width: 998px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Fattani\%20Computers\/Documents\/interior-consultant-page\/sass\/_hero\.scss}line{font-family:\0000314}}
+      .hero__section .hero__text {
+        width: 100%;
+        margin-top: 2rem;
+        padding-right: 1rem; } }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Fattani\%20Computers\/Documents\/interior-consultant-page\/sass\/_hero\.scss}line{font-family:\0000321}}
+    .hero__section .hero__text .hero__title {
+      font-size: 3rem;
+      font-family: "Lora", serif;
+      font-weight: 500; }
+      @media (max-width: 998px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Fattani\%20Computers\/Documents\/interior-consultant-page\/sass\/_hero\.scss}line{font-family:\0000321}}
+        .hero__section .hero__text .hero__title {
+          font-size: 2.4rem; } }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Fattani\%20Computers\/Documents\/interior-consultant-page\/sass\/_hero\.scss}line{font-family:\0000329}}
+    .hero__section .hero__text .hero__desc {
+      font-family: "Montserrat", sans-serif;
+      font-size: 24px;
+      margin: 2rem 0;
+      width: 75%; }
+      @media (max-width: 998px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Fattani\%20Computers\/Documents\/interior-consultant-page\/sass\/_hero\.scss}line{font-family:\0000329}}
+        .hero__section .hero__text .hero__desc {
+          width: 70%;
+          font-size: 14px; } }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Fattani\%20Computers\/Documents\/interior-consultant-page\/sass\/_hero\.scss}line{font-family:\0000339}}
+    .hero__section .hero__text .read__more {
+      color: #ffffff;
+      text-decoration: none;
+      font-weight: 700;
+      display: flex;
+      align-items: center; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Fattani\%20Computers\/Documents\/interior-consultant-page\/sass\/_hero\.scss}line{font-family:\0000345}}
+      .hero__section .hero__text .read__more span {
+        font-size: 1.2rem;
+        font-family: "Montserrat", sans-serif; }
+        @media (max-width: 998px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Fattani\%20Computers\/Documents\/interior-consultant-page\/sass\/_hero\.scss}line{font-family:\0000345}}
+          .hero__section .hero__text .read__more span {
+            font-size: 0.8rem; } }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Fattani\%20Computers\/Documents\/interior-consultant-page\/sass\/_hero\.scss}line{font-family:\0000352}}
+      .hero__section .hero__text .read__more img {
+        width: 25px;
+        filter: grayscale(1) invert(1);
+        margin-left: 0.5rem; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Fattani\%20Computers\/Documents\/interior-consultant-page\/sass\/_hero\.scss}line{font-family:\0000360}}
+  .hero__section .hero__image {
+    width: 60%;
+    display: flex;
+    justify-content: end;
+    position: relative; }
+    @media (max-width: 998px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Fattani\%20Computers\/Documents\/interior-consultant-page\/sass\/_hero\.scss}line{font-family:\0000360}}
+      .hero__section .hero__image {
+        width: 100%;
+        margin-top: 3rem; } }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Fattani\%20Computers\/Documents\/interior-consultant-page\/sass\/_hero\.scss}line{font-family:\0000369}}
+    .hero__section .hero__image img {
+      width: 80%; }
+      @media (max-width: 998px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Fattani\%20Computers\/Documents\/interior-consultant-page\/sass\/_hero\.scss}line{font-family:\0000369}}
+        .hero__section .hero__image img {
+          width: 100%; } }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Fattani\%20Computers\/Documents\/interior-consultant-page\/sass\/_hero\.scss}line{font-family:\0000375}}
+    .hero__section .hero__image .designer {
+      position: absolute;
+      bottom: -5.8rem;
+      right: 1.8rem;
+      background-color: #181719;
+      padding: 1rem 0 2rem 1.5rem;
+      box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+      width: 350px; }
+      @media (max-width: 998px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Fattani\%20Computers\/Documents\/interior-consultant-page\/sass\/_hero\.scss}line{font-family:\0000375}}
+        .hero__section .hero__image .designer {
+          width: 280px;
+          padding-bottom: 1rem; } }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Fattani\%20Computers\/Documents\/interior-consultant-page\/sass\/_hero\.scss}line{font-family:\0000387}}
+      .hero__section .hero__image .designer .designer__info {
+        display: flex;
+        gap: 1rem; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Fattani\%20Computers\/Documents\/interior-consultant-page\/sass\/_hero\.scss}line{font-family:\0000390}}
+        .hero__section .hero__image .designer .designer__info h5 {
+          font-family: "Montserrat", sans-serif;
+          font-weight: 500;
+          font-size: 14px;
+          padding-bottom: 0.3rem; }
+          @media (max-width: 998px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Fattani\%20Computers\/Documents\/interior-consultant-page\/sass\/_hero\.scss}line{font-family:\0000390}}
+            .hero__section .hero__image .designer .designer__info h5 {
+              font-size: 12px; } }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Fattani\%20Computers\/Documents\/interior-consultant-page\/sass\/_hero\.scss}line{font-family:\0000399}}
+        .hero__section .hero__image .designer .designer__info p {
+          font-size: 12px;
+          font-family: "Montserrat", sans-serif;
+          color: #828282; }
+          @media (max-width: 998px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Fattani\%20Computers\/Documents\/interior-consultant-page\/sass\/_hero\.scss}line{font-family:\0000399}}
+            .hero__section .hero__image .designer .designer__info p {
+              font-size: 10px; } }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Fattani\%20Computers\/Documents\/interior-consultant-page\/sass\/_hero\.scss}line{font-family:\00003107}}
+        .hero__section .hero__image .designer .designer__info img {
+          width: 40px;
+          border-radius: 50%; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Fattani\%20Computers\/Documents\/interior-consultant-page\/sass\/_hero\.scss}line{font-family:\00003113}}
+      .hero__section .hero__image .designer h4 {
+        font-size: 24px;
+        font-family: "Lora", serif;
+        font-weight: 700;
+        margin-top: 1.5rem;
+        padding-right: 2rem; }
+        @media (max-width: 998px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Fattani\%20Computers\/Documents\/interior-consultant-page\/sass\/_hero\.scss}line{font-family:\00003113}}
+          .hero__section .hero__image .designer h4 {
+            font-size: 1.2rem;
+            margin-top: 1rem; } }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Fattani\%20Computers\/Documents\/interior-consultant-page\/sass\/_hero\.scss}line{font-family:\00003128}}
+footer {
+  width: 100%;
+  text-align: center;
+  color: #828282;
+  font-family: "Montserrat", sans-serif;
+  margin-top: 2rem;
+  margin-bottom: 1rem; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Fattani\%20Computers\/Documents\/interior-consultant-page\/sass\/_hero\.scss}line{font-family:\00003135}}
+  footer a {
+    color: #828282; }
