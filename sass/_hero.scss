@@ -1,0 +1,139 @@
+.hero__section {
+  width: 100%;
+  height: calc(100vh - 80px);
+  color: color(white);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  @include mobile {
+    flex-direction: column;
+    min-height: 100vh;
+    padding-bottom: 10rem;
+  }
+
+  .hero__text {
+    width: 40%;
+    @include mobile{
+      width: 100%;
+      margin-top: 2rem;
+      padding-right: 1rem;
+    }
+    .hero__title {
+      font-size: 3rem;
+      font-family: $font-lora;
+      font-weight: 500;
+      @include mobile{
+        font-size: 2.4rem;
+      }
+    }
+    .hero__desc {
+      font-family: $font-montserrat;
+      font-size: 24px;
+      margin: 2rem 0;
+      width: 75%;
+      @include mobile{
+        width: 70%;
+        font-size: 14px;
+      }
+    }
+    .read__more {
+      color: color(white);
+      text-decoration: none;
+      font-weight: 700;
+      display: flex;
+      align-items: center;
+      span {
+        font-size: 1.2rem;
+        font-family: $font-montserrat;
+        @include mobile{
+          font-size: 0.8rem;
+        }
+      }
+      img {
+        width: 25px;
+        filter: grayscale(1) invert(1);
+        margin-left: 0.5rem;
+      }
+    }
+  }
+
+  .hero__image {
+    width: 60%;
+    display: flex;
+    justify-content: end;
+    position: relative;
+    @include mobile{
+      width: 100%;
+      margin-top: 3rem;
+    }
+    img {
+        width: 80%;
+        @include mobile{
+          width: 100%;
+        }
+    }
+    .designer{
+        position: absolute;
+        bottom: -5.8rem;
+        right: 1.8rem;
+        background-color: color(black);
+        padding: 1rem 0 2rem 1.5rem;
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+        width: 350px;
+        @include mobile{
+          width: 280px;
+          padding-bottom: 1rem;
+        }
+       .designer__info{
+        display: flex;
+        gap: 1rem;
+        h5{
+            font-family: $font-montserrat;
+            font-weight: 500;
+            font-size: 14px;
+            padding-bottom: 0.3rem;
+            @include mobile{
+              font-size: 12px;
+            }
+        }
+        p {
+            font-size: 12px;
+            font-family: $font-montserrat;
+            color: color(neutral-gray);
+            @include mobile{
+              font-size: 10px;
+            }
+          }
+        img {
+            width: 40px;
+            border-radius: 50%;
+        }
+       }
+
+       h4 {
+        font-size: 24px;
+        font-family: $font-lora;
+        font-weight: 700;
+        margin-top: 1.5rem;
+        padding-right: 2rem;
+        @include mobile{
+          font-size: 1.2rem;
+          margin-top: 1rem;
+        }
+       }
+    }
+  }
+}
+
+footer {
+    width: 100%;
+    text-align: center;
+    color: color(neutral-gray);
+    font-family: $font-montserrat;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+    a {
+        color: color(neutral-gray);
+
+    }
+}
