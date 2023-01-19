@@ -1,8 +1,8 @@
-@import "variables";
-@import "functions";
-@import "mixins";
-@import "reset";
-@import "navigation";
+@import "abstracts/variables";
+@import "abstracts/functions";
+@import "abstracts/mixins";
+@import "base/reset";
+@import "layout/navigation";
 @import "hero";
 
 
